@@ -6,7 +6,7 @@ const YourReactComponent = () => {
   return (
     <div>
       {/* Your other React components can go here */}
-      <WixEmbedComponent />
+      <Entertainment />
     </div>
   );
 };
