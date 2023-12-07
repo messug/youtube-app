@@ -1,25 +1,53 @@
-import logo from './logo.svg';
-import './App.css';
+// YourReactComponent.js
+import React from 'react';
+import Entertainment from './component/Entertainment';
 
-function App() {
+const YourReactComponent = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* Your other React components can go here */}
+      <WixEmbedComponent />
     </div>
   );
-}
+};
 
-export default App;
+export default YourReactComponent;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// import React, { useState } from 'react';
+// import YouTube from './component/YouTube';
+
+// const App = () => {
+//   const [videoId, setVideoId] = useState('pIGzPsfnpoc'); 
+//   const apiKey = 'AIzaSyBvtUPtaB0bdXlWcX4w4Jwp1uGvqX7-uRg'; 
+
+//   return (
+//     <div>
+//       <h1></h1>
+//       <YouTube apiKey={apiKey} videoId={videoId} />
+//     </div>
+//   );
+// };
+
+// export default App;
+
